@@ -34,8 +34,8 @@ extension MainScreenVC : UICollectionViewDataSource , UICollectionViewDelegate,U
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "xxxCell", for: indexPath) as! FoodCell
         let obj = self.FoodData[indexPath.item]
-        cell.iconImg.image = UIImage(named: obj.foodImage)
-        cell.nameLbl.text = obj.foodName
+        cell.iconImg.image = UIImage(named: obj.FoodImage)
+        cell.nameLbl.text = obj.FoodName
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

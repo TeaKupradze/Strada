@@ -7,19 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		93085E3C1F0E3BBC00ED170A /* FoodIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93085E3B1F0E3BBC00ED170A /* FoodIcon.swift */; };
 		936E7B521F0E390300F832D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 936E7B511F0E390300F832D0 /* Assets.xcassets */; };
 		936E7B541F0E39FF00F832D0 /* FoodIcon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 936E7B531F0E39FF00F832D0 /* FoodIcon.plist */; };
 		93A006E11F0E33BE008E792C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A006E01F0E33BE008E792C /* AppDelegate.swift */; };
 		93A006EB1F0E33BE008E792C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A006E91F0E33BE008E792C /* LaunchScreen.storyboard */; };
 		93A006F31F0E33D8008E792C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A006F21F0E33D8008E792C /* Main.storyboard */; };
 		93A006F51F0E33E3008E792C /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A006F41F0E33E3008E792C /* FoodCell.swift */; };
-		93A006F91F0E33F2008E792C /* FoodIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A006F81F0E33F2008E792C /* FoodIcon.swift */; };
 		93A006FB1F0E33FB008E792C /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A006FA1F0E33FB008E792C /* MainScreenVC.swift */; };
+		93A4FEB31F0E401B009C334A /* FoodIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A4FEB21F0E401B009C334A /* FoodIcon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93085E3B1F0E3BBC00ED170A /* FoodIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodIcon.swift; sourceTree = "<group>"; };
 		936E7B511F0E390300F832D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		936E7B531F0E39FF00F832D0 /* FoodIcon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FoodIcon.plist; sourceTree = "<group>"; };
 		93A006DD1F0E33BE008E792C /* Strada.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Strada.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,8 +26,8 @@
 		93A006EC1F0E33BE008E792C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A006F21F0E33D8008E792C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		93A006F41F0E33E3008E792C /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
-		93A006F81F0E33F2008E792C /* FoodIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodIcon.swift; sourceTree = "<group>"; };
 		93A006FA1F0E33FB008E792C /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
+		93A4FEB21F0E401B009C334A /* FoodIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodIcon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +63,7 @@
 				93A006E01F0E33BE008E792C /* AppDelegate.swift */,
 				93A006FA1F0E33FB008E792C /* MainScreenVC.swift */,
 				93A006F41F0E33E3008E792C /* FoodCell.swift */,
-				93085E3B1F0E3BBC00ED170A /* FoodIcon.swift */,
+				93A4FEB21F0E401B009C334A /* FoodIcon.swift */,
 				93A006F21F0E33D8008E792C /* Main.storyboard */,
 				936E7B511F0E390300F832D0 /* Assets.xcassets */,
 				93A006E91F0E33BE008E792C /* LaunchScreen.storyboard */,
@@ -150,9 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				93A006E11F0E33BE008E792C /* AppDelegate.swift in Sources */,
-				93085E3C1F0E3BBC00ED170A /* FoodIcon.swift in Sources */,
-				93A006F91F0E33F2008E792C /* FoodIcon.swift in Sources */,
 				93A006F51F0E33E3008E792C /* FoodCell.swift in Sources */,
+				93A4FEB31F0E401B009C334A /* FoodIcon.swift in Sources */,
 				93A006FB1F0E33FB008E792C /* MainScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

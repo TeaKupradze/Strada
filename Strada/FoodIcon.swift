@@ -10,12 +10,12 @@ import UIKit
 
 class FoodIcon: NSObject {
     
-    var img : String!
-    var name : String!
+    var FoodImage : String!
+    var FoodName : String!
     
     init(withDictionary dictionary : Dictionary <String, Any> ) {
-        self.img = dictionary ["img"] as! String
-        self.name = dictionary ["name"] as! String
+        self.FoodImage = dictionary ["img"] as! String
+        self.FoodName = dictionary ["name"] as! String
         
         
     }
