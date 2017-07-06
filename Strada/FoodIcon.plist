@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>img</key>
+		<string>chicken-hand-drawn-outline</string>
+		<key>name</key>
+		<string>Chicken</string>
+	</dict>
+	<dict>
+		<key>img</key>
+		<string>burger-and-potatoes</string>
+		<key>name</key>
+		<string>Burger</string>
+	</dict>
+	<dict>
+		<key>img</key>
+		<string>coffe-cup</string>
+		<key>name</key>
+		<string>Coffe</string>
+	</dict>
+	<dict>
+		<key>img</key>
+		<string>cupcake</string>
+		<key>name</key>
+		<string>Cupcake</string>
+	</dict>
+	<dict>
+		<key>img</key>
+		<string>pizza</string>
+		<key>name</key>
+		<string>Pizza</string>
+	</dict>
+	<dict>
+		<key>img</key>
+		<string>rice</string>
+		<key>name</key>
+		<string>Rice</string>
+	</dict>
+	<dict>
+		<key>img</key>
+		<string>taco</string>
+		<key>name</key>
+		<string>Taco</string>
+	</dict>
+	<dict>
+		<key>img</key>
+		<string>cocktails</string>
+		<key>name</key>
+		<string>Cocktails</string>
+	</dict>
+</array>
+</plist>

@@ -26,7 +26,7 @@
 		93A006F41F0E33E3008E792C /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodCell.swift; path = ../../../Strada/Strada/FoodCell.swift; sourceTree = "<group>"; };
 		93A006F61F0E33EB008E792C /* FoodIcon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FoodIcon.plist; path = ../../../Strada/Strada/FoodIcon.plist; sourceTree = "<group>"; };
 		93A006F81F0E33F2008E792C /* FoodIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodIcon.swift; path = ../../../Strada/Strada/FoodIcon.swift; sourceTree = "<group>"; };
-		93A006FA1F0E33FB008E792C /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainScreenVC.swift; path = ../../../Strada/Strada/MainScreenVC.swift; sourceTree = "<group>"; };
+		93A006FA1F0E33FB008E792C /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		93A006FC1F0E3405008E792C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Strada/Strada/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -306,6 +306,7 @@
 				93A006F11F0E33BE008E792C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
