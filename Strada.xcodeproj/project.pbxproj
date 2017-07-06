@@ -11,7 +11,7 @@
 		93A006EB1F0E33BE008E792C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A006E91F0E33BE008E792C /* LaunchScreen.storyboard */; };
 		93A006F31F0E33D8008E792C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93A006F21F0E33D8008E792C /* Main.storyboard */; };
 		93A006F51F0E33E3008E792C /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A006F41F0E33E3008E792C /* FoodCell.swift */; };
-		93A006F71F0E33EB008E792C /* FoodIcon.plist in Resources */ = {isa = PBXBuildFile; fileRef = 93A006F61F0E33EB008E792C /* FoodIcon.plist */; };
+		93A006F71F0E33EB008E792C /* FoodIcon.swift in Resources */ = {isa = PBXBuildFile; fileRef = 93A006F61F0E33EB008E792C /* FoodIcon.swift */; };
 		93A006F91F0E33F2008E792C /* FoodIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A006F81F0E33F2008E792C /* FoodIcon.swift */; };
 		93A006FB1F0E33FB008E792C /* MainScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A006FA1F0E33FB008E792C /* MainScreenVC.swift */; };
 		93A006FD1F0E3405008E792C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93A006FC1F0E3405008E792C /* Assets.xcassets */; };
@@ -22,10 +22,10 @@
 		93A006E01F0E33BE008E792C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		93A006EA1F0E33BE008E792C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93A006EC1F0E33BE008E792C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A006F21F0E33D8008E792C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Strada/Strada/Main.storyboard; sourceTree = "<group>"; };
-		93A006F41F0E33E3008E792C /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodCell.swift; path = ../../../Strada/Strada/FoodCell.swift; sourceTree = "<group>"; };
-		93A006F61F0E33EB008E792C /* FoodIcon.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = FoodIcon.plist; path = ../../../Strada/Strada/FoodIcon.plist; sourceTree = "<group>"; };
-		93A006F81F0E33F2008E792C /* FoodIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodIcon.swift; path = ../../../Strada/Strada/FoodIcon.swift; sourceTree = "<group>"; };
+		93A006F21F0E33D8008E792C /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		93A006F41F0E33E3008E792C /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		93A006F61F0E33EB008E792C /* FoodIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodIcon.swift; sourceTree = "<group>"; };
+		93A006F81F0E33F2008E792C /* FoodIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodIcon.swift; sourceTree = "<group>"; };
 		93A006FA1F0E33FB008E792C /* MainScreenVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenVC.swift; sourceTree = "<group>"; };
 		93A006FC1F0E3405008E792C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Strada/Strada/Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +67,7 @@
 				93A006F21F0E33D8008E792C /* Main.storyboard */,
 				93A006FC1F0E3405008E792C /* Assets.xcassets */,
 				93A006E91F0E33BE008E792C /* LaunchScreen.storyboard */,
-				93A006F61F0E33EB008E792C /* FoodIcon.plist */,
+				93A006F61F0E33EB008E792C /* FoodIcon.swift */,
 				93A006EC1F0E33BE008E792C /* Info.plist */,
 			);
 			path = Strada;
@@ -134,7 +134,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93A006F31F0E33D8008E792C /* Main.storyboard in Resources */,
-				93A006F71F0E33EB008E792C /* FoodIcon.plist in Resources */,
+				93A006F71F0E33EB008E792C /* FoodIcon.swift in Resources */,
 				93A006EB1F0E33BE008E792C /* LaunchScreen.storyboard in Resources */,
 				93A006FD1F0E3405008E792C /* Assets.xcassets in Resources */,
 			);
