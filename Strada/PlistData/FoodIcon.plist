@@ -3,48 +3,64 @@
 <plist version="1.0">
 <array>
 	<dict>
+		<key>id</key>
+		<string>0</string>
 		<key>img</key>
 		<string>chicken-hand-drawn-outline</string>
 		<key>name</key>
 		<string>Chicken</string>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>1</string>
 		<key>img</key>
 		<string>burger-and-potatoes</string>
 		<key>name</key>
 		<string>Burger</string>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>2</string>
 		<key>img</key>
 		<string>coffe-cup</string>
 		<key>name</key>
 		<string>Coffe</string>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>3</string>
 		<key>img</key>
 		<string>cupcake</string>
 		<key>name</key>
 		<string>Cupcake</string>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>4</string>
 		<key>img</key>
 		<string>pizza</string>
 		<key>name</key>
 		<string>Pizza</string>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>5</string>
 		<key>img</key>
 		<string>rice</string>
 		<key>name</key>
 		<string>Rice</string>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>6</string>
 		<key>img</key>
 		<string>taco</string>
 		<key>name</key>
 		<string>Taco</string>
 	</dict>
 	<dict>
+		<key>id</key>
+		<string>7</string>
 		<key>img</key>
 		<string>cocktails</string>
 		<key>name</key>

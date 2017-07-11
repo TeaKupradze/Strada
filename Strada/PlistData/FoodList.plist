@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>id</key>
+		<string>0</string>
+		<key>categoryList</key>
+		<array>
+			<dict>
+				<key>img</key>
+				<string>veg-burger</string>
+				<key>price</key>
+				<string>8$</string>
+				<key>title</key>
+				<string>Burger</string>
+				<key>description</key>
+				<string>Salad sheets</string>
+			</dict>
+			<dict>
+				<key>img</key>
+				<string>images</string>
+				<key>price</key>
+				<string>10$</string>
+				<key>title</key>
+				<string>Fried Chicken</string>
+				<key>description</key>
+				<string>Chicken,Salad sheets</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>1</string>
+		<key>categoryList</key>
+		<array>
+			<dict>
+				<key>img</key>
+				<string>images</string>
+				<key>price</key>
+				<string>10$</string>
+				<key>title</key>
+				<string>Fried Chicken</string>
+				<key>description</key>
+				<string>Chicken,Salad sheets</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>2</string>
+		<key>categoryList</key>
+		<array>
+			<dict>
+				<key>img</key>
+				<string>images</string>
+				<key>price</key>
+				<string>10$</string>
+				<key>title</key>
+				<string>Fried Chicken</string>
+				<key>description</key>
+				<string>Chicken,Salad sheets</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>3</string>
+		<key>categoryList</key>
+		<array>
+			<dict>
+				<key>img</key>
+				<string>images</string>
+				<key>price</key>
+				<string>10$</string>
+				<key>title</key>
+				<string>Fried Chicken</string>
+				<key>description</key>
+				<string>Chicken,Salad sheets</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>4</string>
+		<key>categoryList</key>
+		<array>
+			<dict>
+				<key>img</key>
+				<string>images</string>
+				<key>price</key>
+				<string>10$</string>
+				<key>title</key>
+				<string>Fried Chicken</string>
+				<key>description</key>
+				<string>Chicken,Salad sheets</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>5</string>
+		<key>categoryList</key>
+		<array>
+			<dict>
+				<key>img</key>
+				<string>images</string>
+				<key>price</key>
+				<string>10$</string>
+				<key>title</key>
+				<string>Fried Chicken</string>
+				<key>description</key>
+				<string>Chicken,Salad sheets</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>6</string>
+		<key>categoryList</key>
+		<array>
+			<dict>
+				<key>img</key>
+				<string>images</string>
+				<key>price</key>
+				<string>10$</string>
+				<key>title</key>
+				<string>Fried Chicken</string>
+				<key>description</key>
+				<string>Chicken,Salad sheets</string>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>id</key>
+		<string>7</string>
+		<key>categoryList</key>
+		<array>
+			<dict>
+				<key>img</key>
+				<string>images</string>
+				<key>price</key>
+				<string>10$</string>
+				<key>title</key>
+				<string>Fried Chicken</string>
+				<key>description</key>
+				<string>Chicken,Salad sheets</string>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

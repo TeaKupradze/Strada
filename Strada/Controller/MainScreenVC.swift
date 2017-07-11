@@ -11,13 +11,12 @@ import UIKit
 class MainScreenVC: UIViewController {
     
     var FoodData = [FoodIcon]()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        getPlistData()
+        getIconPlistData()
     }
-    
-    func getPlistData(){
+    func getIconPlistData(){
        let path = Bundle.main.path(forResource: "FoodIcon", ofType: "plist")
         let arryObj = NSArray (contentsOfFile: path!) as! [Dictionary <String , Any>]
         for oneObj in arryObj {
@@ -34,16 +33,18 @@ extension MainScreenVC : UICollectionViewDataSource , UICollectionViewDelegate,U
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "xxxCell", for: indexPath) as! FoodCell
         let obj = self.FoodData[indexPath.item]
-        cell.iconImg.image = UIImage(named: obj.FoodImage)
-        cell.nameLbl.text = obj.FoodName
+        cell.iconImg.image = UIImage(named: obj.FoodIcon)
+        cell.nameLbl.text = obj.CategoryName
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width : 187, height :177)
     }
-    
-    
-//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-//        <#code#>
-//    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        collectionView.deselectItem(at: indexPath, animated: true)
+        let clickdItemId = FoodData[indexPath.item]
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "xxxVC") as! FoodListVC
+        vc.itemsId = clickdItemId.categoryID
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
 }
