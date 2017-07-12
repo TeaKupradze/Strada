@@ -9,6 +9,16 @@
 		<array>
 			<dict>
 				<key>img</key>
+				<string>meciko</string>
+				<key>price</key>
+				<string>5$</string>
+				<key>title</key>
+				<string>Burger</string>
+				<key>description</key>
+				<string>Salad sheets</string>
+			</dict>
+			<dict>
+				<key>img</key>
 				<string>veg-burger</string>
 				<key>price</key>
 				<string>8$</string>

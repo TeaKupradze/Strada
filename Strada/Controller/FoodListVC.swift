@@ -9,13 +9,26 @@
 import UIKit
 
 class FoodListVC: UIViewController {
-    
+
+    @IBOutlet weak var tableView: UITableView!
+
     var FoodListData = [NSDictionary] ()
     var itemsId : String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         getFoodPlistData()
+        //addTop Bar
+        let topBar = Bundle.main.loadNibNamed("TopBar", owner: self, options: nil)? [0] as! TopBarView
+        topBar.delegate = self
+        self.view.addSubview(topBar)
+        //change image
+        topBar.menuBtn.setImage(UIImage(named: "back"), for: .normal)
+        
+    }
+    //Status BarStyle
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
     }
     func getFoodPlistData (){
         let path = Bundle.main.path(forResource: "FoodList", ofType: "plist")
@@ -28,6 +41,11 @@ class FoodListVC: UIViewController {
             }
          }
        }
+}
+extension FoodListVC: tabBarDelegate{
+        func leftBtnClic() {
+        navigationController?.popViewController(animated: true)
+    }
 }
 extension FoodListVC : UITableViewDelegate,UITableViewDataSource {
         

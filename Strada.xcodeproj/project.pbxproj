@@ -32,6 +32,8 @@
 		93AA76271F14C3D600416DA7 /* SF-Pro-Text-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93AA761B1F14C3D600416DA7 /* SF-Pro-Text-RegularItalic.otf */; };
 		93AA76281F14C3D600416DA7 /* SF-Pro-Text-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93AA761C1F14C3D600416DA7 /* SF-Pro-Text-Semibold.otf */; };
 		93AA76291F14C3D600416DA7 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93AA761D1F14C3D600416DA7 /* SF-Pro-Text-SemiboldItalic.otf */; };
+		93AA76311F16071D00416DA7 /* TopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AA76301F16071D00416DA7 /* TopBar.xib */; };
+		93AA76331F160AC100416DA7 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AA76321F160AC100416DA7 /* TopBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,8 @@
 		93AA761B1F14C3D600416DA7 /* SF-Pro-Text-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-RegularItalic.otf"; sourceTree = "<group>"; };
 		93AA761C1F14C3D600416DA7 /* SF-Pro-Text-Semibold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-Semibold.otf"; sourceTree = "<group>"; };
 		93AA761D1F14C3D600416DA7 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
+		93AA76301F16071D00416DA7 /* TopBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopBar.xib; sourceTree = "<group>"; };
+		93AA76321F160AC100416DA7 /* TopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				93A006F21F0E33D8008E792C /* Main.storyboard */,
+				93AA76301F16071D00416DA7 /* TopBar.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -159,6 +164,7 @@
 				936DA9F81F0E5A8200398AB5 /* FoodListVC.swift */,
 				936DA9F21F0E506B00398AB5 /* FoodListVCTableViewCell.swift */,
 				93A006F41F0E33E3008E792C /* FoodCell.swift */,
+				93AA76321F160AC100416DA7 /* TopBarView.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,6 +252,7 @@
 				93AA76271F14C3D600416DA7 /* SF-Pro-Text-RegularItalic.otf in Resources */,
 				93A006F31F0E33D8008E792C /* Main.storyboard in Resources */,
 				93AA761E1F14C3D600416DA7 /* SF-Pro-Text-Bold.otf in Resources */,
+				93AA76311F16071D00416DA7 /* TopBar.xib in Resources */,
 				936E7B541F0E39FF00F832D0 /* FoodIcon.plist in Resources */,
 				93AA76211F14C3D600416DA7 /* SF-Pro-Text-HeavyItalic.otf in Resources */,
 				93AA76261F14C3D600416DA7 /* SF-Pro-Text-Regular.otf in Resources */,
@@ -275,6 +282,7 @@
 				93A006F51F0E33E3008E792C /* FoodCell.swift in Sources */,
 				936DA9F51F0E51CF00398AB5 /* FoodList.swift in Sources */,
 				93A4FEB31F0E401B009C334A /* FoodIcon.swift in Sources */,
+				93AA76331F160AC100416DA7 /* TopBarView.swift in Sources */,
 				93A006FB1F0E33FB008E792C /* MainScreenVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

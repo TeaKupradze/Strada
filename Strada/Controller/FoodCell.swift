@@ -15,4 +15,6 @@ class FoodCell: UICollectionViewCell {
     
     var img : FoodIcon?
     var name : FoodIcon?
+    
+    
 }

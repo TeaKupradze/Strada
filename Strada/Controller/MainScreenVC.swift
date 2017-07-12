@@ -10,12 +10,26 @@ import UIKit
 
 class MainScreenVC: UIViewController {
     
+    @IBOutlet weak var collectionView: UICollectionView!
     var FoodData = [FoodIcon]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         getIconPlistData()
-    }
+        //changeBg
+        let bgImage = UIImageView();
+        bgImage.image = UIImage(named: "bg");
+        bgImage.alpha = 0.7
+        self.collectionView?.backgroundView = bgImage
+        //addTopBar
+        let topBar = Bundle.main.loadNibNamed("TopBar", owner: self, options: nil)? [0] as! TopBarView
+        self.view.addSubview(topBar)
+        topBar.delegate = self
+}
+        //statusBarStyle
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+}
     func getIconPlistData(){
        let path = Bundle.main.path(forResource: "FoodIcon", ofType: "plist")
         let arryObj = NSArray (contentsOfFile: path!) as! [Dictionary <String , Any>]
@@ -23,6 +37,12 @@ class MainScreenVC: UIViewController {
             let oneData = FoodIcon (withDictionary : oneObj)
             FoodData.append(oneData)
         }
+    }
+}
+extension MainScreenVC: tabBarDelegate{
+
+    func leftBtnClic() {
+        
     }
 }
 extension MainScreenVC : UICollectionViewDataSource , UICollectionViewDelegate,UICollectionViewDelegateFlowLayout {
