@@ -27,10 +27,10 @@
                                 <action selector="menuBtnAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="U2g-jq-XQU"/>
                             </connections>
                         </button>
-                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfE-Os-rnZ">
-                            <rect key="frame" x="329" y="34" width="38" height="22"/>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZfE-Os-rnZ">
+                            <rect key="frame" x="330" y="29" width="34" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="B"/>
+                            <state key="normal" image="settings"/>
                         </button>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Strada" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHn-v0-M6m">
                             <rect key="frame" x="135" y="29" width="105" height="27"/>
@@ -53,5 +53,6 @@
     </objects>
     <resources>
         <image name="menu" width="16" height="16"/>
+        <image name="settings" width="16" height="16"/>
     </resources>
 </document>

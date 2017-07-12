@@ -34,6 +34,7 @@
 		93AA76291F14C3D600416DA7 /* SF-Pro-Text-SemiboldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 93AA761D1F14C3D600416DA7 /* SF-Pro-Text-SemiboldItalic.otf */; };
 		93AA76311F16071D00416DA7 /* TopBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 93AA76301F16071D00416DA7 /* TopBar.xib */; };
 		93AA76331F160AC100416DA7 /* TopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AA76321F160AC100416DA7 /* TopBarView.swift */; };
+		93AA76351F165B0D00416DA7 /* FoodDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AA76341F165B0D00416DA7 /* FoodDetailsVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 		93AA761D1F14C3D600416DA7 /* SF-Pro-Text-SemiboldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-Pro-Text-SemiboldItalic.otf"; sourceTree = "<group>"; };
 		93AA76301F16071D00416DA7 /* TopBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopBar.xib; sourceTree = "<group>"; };
 		93AA76321F160AC100416DA7 /* TopBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopBarView.swift; sourceTree = "<group>"; };
+		93AA76341F165B0D00416DA7 /* FoodDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodDetailsVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +164,7 @@
 			children = (
 				93A006FA1F0E33FB008E792C /* MainScreenVC.swift */,
 				936DA9F81F0E5A8200398AB5 /* FoodListVC.swift */,
+				93AA76341F165B0D00416DA7 /* FoodDetailsVC.swift */,
 				936DA9F21F0E506B00398AB5 /* FoodListVCTableViewCell.swift */,
 				93A006F41F0E33E3008E792C /* FoodCell.swift */,
 				93AA76321F160AC100416DA7 /* TopBarView.swift */,
@@ -282,6 +285,7 @@
 				93A006F51F0E33E3008E792C /* FoodCell.swift in Sources */,
 				936DA9F51F0E51CF00398AB5 /* FoodList.swift in Sources */,
 				93A4FEB31F0E401B009C334A /* FoodIcon.swift in Sources */,
+				93AA76351F165B0D00416DA7 /* FoodDetailsVC.swift in Sources */,
 				93AA76331F160AC100416DA7 /* TopBarView.swift in Sources */,
 				93A006FB1F0E33FB008E792C /* MainScreenVC.swift in Sources */,
 			);
