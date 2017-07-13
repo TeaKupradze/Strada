@@ -15,16 +15,19 @@ class FoodDetailsVC: UIViewController {
     @IBOutlet weak var foodPriceLbl: UILabel!
     @IBOutlet weak var foodDescriptionLbl: UILabel!
 
-   var detales : NSDictionary?
-    
+    var detales : NSDictionary?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-     
+        foodImg.image = UIImage(named : detales! ["img"] as! String)
+        foodTitleLbl.text = detales! ["title"] as? String
+        foodPriceLbl.text = detales! ["price"] as? String
+        foodDescriptionLbl.text = detales! ["description"] as? String
     }
-    
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     @IBAction func backBtn(_ sender: Any) {
-        
-        navigationController?.popViewController(animated: true)
+        dismiss(animated: true, completion: nil)
     }
 }

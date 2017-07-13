@@ -63,19 +63,10 @@ extension FoodListVC : UITableViewDelegate,UITableViewDataSource {
             return cell
         }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
         tableView.deselectRow(at: indexPath, animated: true)
-        
         let foodDetailsIndex =  FoodListData[indexPath.row]
-        
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "xxxDetails") as! FoodDetailsVC
         vc.detales = foodDetailsIndex
-        
-        self.navigationController?.pushViewController(vc, animated: true)
-        
-        //self.presentingViewController(vc,animated: true, completion: nil)
-    
-        
-    
+        self.present(vc,animated: true, completion: nil)
     }
 }
